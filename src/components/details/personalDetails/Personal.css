@@ -1,0 +1,31 @@
+.basic {
+    padding: 10px 10px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.namedetails {
+    padding: 3px 3px;
+    /* background: black; */
+    /* color: white; */
+    border: 1px solid black;
+    font-weight: 800;
+    background: #ffe6e6;
+}
+
+.values {
+    font-style: italic;
+}
+
+.imagesm {
+    height: 80px;
+    width: 80px;
+}
+
+.insta {
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,13 @@
+.menu {
+    position: fixed;
+    top: 220px
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+.hint {
+    background: black;
+    color: white;
+    padding: 2px 2px;
+}
