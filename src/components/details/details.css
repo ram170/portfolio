@@ -13,7 +13,10 @@
 
 .grid-item {
     text-align: center;
-    /* border: solid 1px black; */
+    border-bottom: solid 0.5px black;
+    border-top: solid 0.5px black;
+    border-radius: 10px;
+    height: 268.6px !important;
     /* background: #ffe6e6; */
     /* padding: 100px 40px !important; */
     /* box-shadow: 5px 5px 10px #888888; */
@@ -128,7 +131,7 @@
     border: 1px solid black;
     font-weight: 800;
     padding: 3px 3px;
-      background-color: blue;
+      background-color: #446061;
       color: white;
   }
 

@@ -8,7 +8,7 @@ export class Cover extends Component {
         return (
             <div>
                 <div className = "cover">
-                    <span className = "name">SRIRAM R</span>
+                    <div className = "name">SRIRAM R</div>
                     <br></br>
                     <br></br>
                 </div>

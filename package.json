@@ -1,8 +1,8 @@
 {
-  "homepage": "https://ram170.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ram170.github.io/portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",
@@ -14,7 +14,8 @@
     "react-animated-css": "^1.2.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-typing-effect": "^2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

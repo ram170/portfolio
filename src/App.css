@@ -16,3 +16,8 @@ body {
 .welcome {
   font-size: xx-large;
 }
+
+.type {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}

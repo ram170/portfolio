@@ -1,6 +1,7 @@
 .cover {
-    padding: 50px 0px;
-    background: #4285F4;
+    padding: 20px 0px;
+    /* background: #4285F4; */
+    background: black;
     color: white;
     text-align: center;
 }
@@ -12,43 +13,44 @@
     border-radius: 150px;
     background: #fff;
     position: relative;
-    top: -40px;
+    top: -10px;
 }
 
 .image {
     display:inline-block;
-    width: 100%;
+    width: 99%;
     height: 90%;
     border-radius: 90%;
     position: relative;
     top: -40px;
-    /* border: 0.5px solid black; */
+    border: 5px solid white;
 }
 
 
 .name {
     top: 0%;
-    position: absolute;
-    left: 34%;
+    position: relative;
+    /* left: 34%; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     text-decoration: underline;
+    text-align: center;
     /* background: black;
     padding: 7px 7px; */
 }
 
-@media only screen and (min-width: 400px) {
+/* @media only screen and (min-width: 400px) {
     .name {
         left: 43%;
     }
-}
+} */
 
 @media only screen and (min-width: 1000px) {
     .image {
          width: 109%;
         height: 100%;
     }
-    .name {
+    /* .name {
         left: 46.3%;
-    }
+    } */
 }

@@ -15,13 +15,22 @@ export class Personal extends Component {
                         <hr></hr>
                     </div>
                     :
-                    <div>
-                        <span className = "namedetails">{this.props.currentVal}</span>
-                        <br></br>
-                        <br></br>
-                        <div className = "values">{this.props.object[this.props.currentVal]}</div>
-                        <hr></hr>
-                    </div>
+                    this.props.currentVal === 'COVID19Tracker' || this.props.currentVal === 'MovieWiki' || this.props.currentVal === 'Puzzle Game' || this.props.currentVal === 'ToDo planner' ?
+                        <div>
+                            <span className = "namedetails">{this.props.currentVal}</span>
+                            <br></br>
+                            <br></br>
+                            <div className = "values">{this.props.object[this.props.currentVal]}</div>
+                            < a href = {this.props.projectLinks[this.props.currentVal]} className = "values" target = "_blank">Check it out</a>
+                            <hr></hr>
+                        </div>
+                        : <div>
+                            <span className = "namedetails">{this.props.currentVal}</span>
+                            <br></br>
+                            <br></br>
+                            <div className = "values">{this.props.object[this.props.currentVal]}</div>
+                            <hr></hr>
+                        </div>
                 }
                 </Animated>
             </div>

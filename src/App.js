@@ -4,12 +4,18 @@ import Cover from './components/cover/Cover'
 import details, { Details } from './components/details/Details'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menu from './components/cover/menu/Menu'
+import ReactTypingEffect from 'react-typing-effect';
 
 export class App extends Component {
   render() {
     return (
       <div className = "main">
         <Cover></Cover>
+        <center>
+          <span className = "type">
+            <b><ReactTypingEffect text="while (alive?) code();"> </ReactTypingEffect></b>
+          </span>
+        </center>
         <center><i className = 'welcome'>Welcome to my crib!</i></center>
         <br></br>
         <Details></Details>
