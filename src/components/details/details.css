@@ -13,6 +13,7 @@
 
 .grid-item {
     text-align: center;
+    /* border: solid 0.5px black; */
     border-bottom: solid 0.5px black;
     border-top: solid 0.5px black;
     border-radius: 10px;

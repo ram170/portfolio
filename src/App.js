@@ -13,7 +13,7 @@ export class App extends Component {
         <Cover></Cover>
         <center>
           <span className = "type">
-            <b><ReactTypingEffect text="while (alive?) code();"> </ReactTypingEffect></b>
+            <ReactTypingEffect text="while (alive?) code();"> </ReactTypingEffect>
           </span>
         </center>
         <center><i className = 'welcome'>Welcome to my crib!</i></center>

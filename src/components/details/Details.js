@@ -134,6 +134,7 @@ export class Details extends Component {
                 <div className = "detailsToggle margin" onClick = { this.experienceDetails }> Experience { this.state.experienceDetails?<KeyboardArrowUpIcon></KeyboardArrowUpIcon> : <KeyboardArrowDownIcon></KeyboardArrowDownIcon> } </div>
                 { this.state.experienceDetails?
                     <div className = "grid margin">
+                        <div></div>
                         <div className = "exp">
                             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
                                 <br></br>
